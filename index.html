@@ -4,13 +4,44 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Aiko rastreamento</title>
   </head>
   <body>
-    <section class="navegacao"></section>
-    <section class="mapaexploracao"></section>
-    <section class="footer"></section>
+    <section class="navegacao">
+      <img src="img/aiko.png" alt="Logo da empresa" />
+      <div>
+        <nav>
+          <ul>
+            <li><a href="#">QUEM SOMOS</a></li>
+            <li><a href="#">MONITORAMENTO</a></li>
+            <li><a href="#">HISTÓRICO DE POSIÇÕES</a></li>
+            <li><a href="#">CONTATO</a></li>
+          </ul>
+        </nav>
+      </div>
+    </section>
+    <section class="mapaexploracao">
+      <div id="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3739.6339482909475!2d-46.093217129860676!3d-19.264001404006592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTnCsDE1JzUxLjMiUyA0NsKwMDUnMzIuOCJX!5e1!3m2!1spt-BR!2sbr!4v1679920500430!5m2!1spt-BR!2sbr"
+          width="700"
+          height="550"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          marker=""
+        ></iframe>
+      </div>
+    </section>
+    <section class="historico"></section>
     <script src="main.js"></script>
   </body>
 </html>

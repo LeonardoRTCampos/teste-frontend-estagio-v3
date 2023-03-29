@@ -1,4 +1,8 @@
-body {
+@import "./styles/containerApresentacao.css";
+@import "./styles/containermap.css";
+@import "./styles/reset.css";
+
+.mapaexploracao {
   background-image: url("img/background2.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
